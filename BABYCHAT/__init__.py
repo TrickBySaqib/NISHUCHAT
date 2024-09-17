@@ -4,6 +4,7 @@ import logging
 import re
 import sys
 import time
+import reactions
 
 from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 from pyrogram import Client
