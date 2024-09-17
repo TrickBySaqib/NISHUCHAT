@@ -3,7 +3,7 @@
 
 import asyncio
 import random
-
+from pyrogram import Client, filters
 from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardMarkup, Message
@@ -87,4 +87,8 @@ async def repo(_, m: Message):
 async def welcome(_, m: Message):
     for member in m.new_chat_members:
         await m.reply_photo(photo=random.choice(IMG), caption=START)
-        
+
+@dev.on_message(filters.text)
+async def react_to_message(client: Client, message: Message):
+    emoji = random.choice(reactions)
+    await message.react(emoji)
