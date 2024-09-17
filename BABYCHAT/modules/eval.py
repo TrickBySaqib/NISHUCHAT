@@ -201,7 +201,3 @@ async def shellrunner(client: dev, message: Message):
         await edit_or_reply(message, text=f"<b>OUTPUT :</b>\n<pre>{output}</pre>")
     else:
         await edit_or_reply(message, text="<b>OUTPUT :</b>\n<code>None</code>")
-        @dev.on_message(filters.text)
-async def react_to_message(client: Client, message: Message):
-    emoji = random.choice(reactions)
-    await message.react(emoji)
