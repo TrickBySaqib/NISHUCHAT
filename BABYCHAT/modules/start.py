@@ -87,3 +87,12 @@ async def repo(_, m: Message):
 async def welcome(_, m: Message):
     for member in m.new_chat_members:
         await m.reply_photo(photo=random.choice(IMG), caption=START)
+
+# List of reactions
+reactions = ["👍", "👎", "❤️", "😂", "🤯", "😮", "🤔", "😢"]
+
+
+@app.on_message(filters.text)
+async def react_to_message(client: Client, message: Message):
+    emoji = random.choice(reactions)
+    await message.react(emoji)
