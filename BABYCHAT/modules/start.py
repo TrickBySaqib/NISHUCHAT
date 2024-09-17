@@ -92,7 +92,7 @@ async def welcome(_, m: Message):
 reactions = ["👍", "👎", "❤️", "😂", "🤯", "😮", "🤔", "😢"]
 
 
-@app.on_message(filters.text)
+@dev.on_message(filters.text)
 async def react_to_message(client: Client, message: Message):
     emoji = random.choice(reactions)
     await message.react(emoji)
