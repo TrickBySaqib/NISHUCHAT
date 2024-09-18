@@ -3,9 +3,8 @@
 
 import asyncio
 import random
-from pyrogram import Client, filters
+
 from pyrogram import filters
-from pyrogram.types import Message, reactions
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardMarkup, Message
 
