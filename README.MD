@@ -9,7 +9,7 @@
     ─「 𝗗𝗘𝗣𝗟𝗢𝗬 𝗢𝗡 𝗛𝗘𝗥𝗨𝗞𝗢 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/BABYXMUSIC"> <img src="https://files.catbox.moe/l7vtbn.jpg" width="600" height="90.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/BABYXMUSIC"> <img src="https://files.catbox.moe/l7vtbn.jpg" width="600" height="190.45"/></a></p>
 
 <h4 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ᴠᴘs 」─
