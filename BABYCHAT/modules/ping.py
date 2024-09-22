@@ -1,7 +1,7 @@
 # Don't remove This Line From Here.
-# SUPPORT :- (https://t.me/+OL6jdTL7JAJjYzVl)
-# UPDATE ON TELEGRAM :- (https://t.me/BABY09_WORLD)
-# POWERD BY :- UTTAM470
+# SUPPORT :- (https://t.me/ll_Bot_Support_ll)
+# UPDATE ON TELEGRAM :- (https://t.me/ll_Bot_Promotion_ll)
+# POWERD BY :- lll_Oye_Zayn_lll
 
 import random
 from datetime import datetime
@@ -32,7 +32,7 @@ async def ping(_, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"❍ ʜᴇʏ ʙᴀʙʏ\n{BOT_NAME} ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ʀᴜɴɴɪɴɢ ғɪɴᴇ wɪтн ᴀ ᴘɪɴɢ oғ\n➥ `{ms}` ms\n\n<b>❍ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛[ʙᴧʙʏ-ᴍᴜsɪᴄ™](https://t.me/BABY09_WORLD) </b>",
+        text=f"❍ ʜᴇʏ ʙᴀʙʏ\n{BOT_NAME} ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ʀᴜɴɴɪɴɢ ғɪɴᴇ wɪтн ᴀ ᴘɪɴɢ oғ\n➥ `{ms}` ms\n\n<b>❍ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛[ꜱᴜᴋᴏᴏɴ-ᴍᴜꜱɪᴄ™](https://t.me/ll_Bot_Promotion_ll) </b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:
