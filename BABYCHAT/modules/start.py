@@ -1,5 +1,5 @@
 # Don't remove This Line From Here.
-# Telegram :- @ll_ALPHA_BABY_lll
+# Telegram :- @ll_Bot_Promotion_ll
 
 import asyncio
 import random
