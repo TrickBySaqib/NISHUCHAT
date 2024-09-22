@@ -1,5 +1,5 @@
 {
-  "name": "🐰⃟⃞⍣Rᴀᴅʜɪᴋᴀ❥",
+  "name": "•─┼꯭꯭ᶦ꯭ϻ꯭ͣ། ⃪꯭͢🦋꯭❘⃟⃝𝄄 🅽꯭𝐢𝐬꯭𝐡𝐮꯭🍥 ⃟⃟⃝⃜💞꯭➻꯭᪵⎯꯭᪵᪵̽𝆺꯭𝅥༎",
   "description": "A telegram bot",
   "logo": "https://files.catbox.moe/aguvv4.jpg",
   "keywords": [
@@ -11,7 +11,7 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/BABY-MUSIC/RADHIKACHAT",
+  "repository": "https://files.catbox.moe/aguvv4.jpg",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
